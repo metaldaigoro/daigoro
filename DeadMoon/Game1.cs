@@ -6,12 +6,15 @@ namespace DeadMoon
 {
     public class Game1 : Game
     {
-        private GraphicsDeviceManager _graphics;
-        private SpriteBatch _spriteBatch;
-
+        // Declaraciones por defecto
+        private GraphicsDeviceManager graphics;
+        private SpriteBatch spriteBatch;
+        // Declarando los sprites de los personajes
+        private Texture2D vegeta;
+        private Texture2D vegetaSayan;
         public Game1()
         {
-            _graphics = new GraphicsDeviceManager(this);
+            graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
@@ -25,9 +28,11 @@ namespace DeadMoon
 
         protected override void LoadContent()
         {
-            _spriteBatch = new SpriteBatch(GraphicsDevice);
+            spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            // Cargar sprite de los personajes
+            vegeta = Content.Load<Texture2D>("Personajes/vegeta");
+            vegetaSayan = Content.Load<Texture2D>("Personajes/vegeta_sayan");
         }
 
         protected override void Update(GameTime gameTime)
@@ -44,7 +49,10 @@ namespace DeadMoon
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            // Dibujar sprite del personaje
+            spriteBatch.Begin();
+            spriteBatch.Draw(vegeta, Vector2.Zero, Color.White);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
