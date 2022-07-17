@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FB9bnL8NrRjFuW/xZr4HfcBTWc1ODpg8m8eCWEZmyq+PalCSfB+PBqa+yRE5u6M6bRDL6DYmmrcQYb7W3KoKbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Daigoro\\DeadMoon\\DeadMoon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ander\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\Ander\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}
