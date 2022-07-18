@@ -67,8 +67,16 @@ namespace DeadMoon
             // La altura de la pantalla menos el tamaño del sprite
             posicionObjeto1.Y = GraphicsDevice.PresentationParameters.BackBufferHeight - vegeta.Height;
 
-            // Dibujar sprite del personaje
+            
             spriteBatch.Begin();
+            // Dibujar background
+            //spriteBatch.Draw(backgroundInicio, Vector2.Zero, Color.White);
+            //System.Console.WriteLine("Tamaño pantalla X:" + GraphicsDevice.PresentationParameters.BackBufferHeight + " Tamañoo pantalla Y:" + GraphicsDevice.PresentationParameters.BackBufferWidth);
+            spriteBatch.Draw(backgroundInicio,
+               new Rectangle(0, 0, GraphicsDevice.PresentationParameters.BackBufferWidth, GraphicsDevice.PresentationParameters.BackBufferHeight),
+               new Rectangle(0, 0, backgroundInicio.Width, backgroundInicio.Height),
+               Color.White);
+            // Dibujar sprite del personaje
             spriteBatch.Draw(vegeta, posicionObjeto1, Color.White);
             spriteBatch.End();
 

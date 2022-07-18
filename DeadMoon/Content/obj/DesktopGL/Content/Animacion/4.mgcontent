@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Daigoro/DeadMoon/Content/Animacion/4.png</SourceFile>
-  <SourceTime>2022-07-18T09:48:14.5798131+02:00</SourceTime>
+  <SourceTime>2022-07-18T11:03:36.2809572+02:00</SourceTime>
   <DestFile>C:/Daigoro/DeadMoon/Content/bin/DesktopGL/Content/Animacion/4.xnb</DestFile>
-  <DestTime>2022-07-18T09:54:33.6004749+02:00</DestTime>
+  <DestTime>2022-07-18T11:07:13.4911961+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
