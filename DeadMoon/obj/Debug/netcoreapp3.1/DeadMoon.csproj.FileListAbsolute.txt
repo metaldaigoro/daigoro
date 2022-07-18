@@ -33,3 +33,4 @@ C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\6.xnb
 C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\7.xnb
 C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\8.xnb
 C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\9.xnb
+C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Background\fondo.xnb
