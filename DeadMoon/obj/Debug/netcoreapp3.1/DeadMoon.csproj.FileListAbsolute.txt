@@ -21,8 +21,6 @@ C:\Daigoro\DeadMoon\obj\Debug\netcoreapp3.1\DeadMoon.csproj.CopyComplete
 C:\Daigoro\DeadMoon\obj\Debug\netcoreapp3.1\DeadMoon.dll
 C:\Daigoro\DeadMoon\obj\Debug\netcoreapp3.1\DeadMoon.pdb
 C:\Daigoro\DeadMoon\obj\Debug\netcoreapp3.1\DeadMoon.genruntimeconfig.cache
-C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Personajes\vegeta.xnb
-C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Personajes\vegeta_sayan.xnb
 C:\Daigoro\DeadMoon\obj\Debug\netcoreapp3.1\DeadMoon.csproj.AssemblyReference.cache
 C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\1.xnb
 C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\2.xnb
