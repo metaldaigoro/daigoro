@@ -20,7 +20,9 @@ namespace DeadMoon
         private Texture2D vegeta8;
         private Texture2D vegeta9;
         private Texture2D backgroundInicio;
-        private Vector2 posicionObjeto1 = new Vector2();
+        private Vector2 posicionVegeta = new Vector2();
+        private Vector2 movimiento = new Vector2();
+        
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -31,9 +33,15 @@ namespace DeadMoon
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-
+            // Esto viene por defecto
             base.Initialize();
+
+            // Posicion inicial vegeta
+            //Fijar posicion del elemento al final de la pantalla
+            // A la izquierda del todo
+            posicionVegeta.X = 0;
+            // La altura de la pantalla menos el tamaño del sprite
+            posicionVegeta.Y = GraphicsDevice.PresentationParameters.BackBufferHeight - vegeta.Height;
         }
 
         protected override void LoadContent()
@@ -49,10 +57,28 @@ namespace DeadMoon
 
         protected override void Update(GameTime gameTime)
         {
+            // Esto viene por defecto para usar el mando o el teclado
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
+            
+            // Mi lógica para el movimiento
+            movimiento = Vector2.Zero;
+            // Si aprietas boton derecha
+            if (Keyboard.GetState().IsKeyDown(Keys.Right))
+            {
+                System.Diagnostics.Debug.WriteLine("estoy aqui");
+                //Posicion eje x++
+                movimiento.X += 1;
+            }
+            // Si aprietas boton izquierda
+            if (Keyboard.GetState().IsKeyDown(Keys.Left))
+            {
+                System.Diagnostics.Debug.WriteLine("estoy aqui 2");
+                //Posicion eje x++
+                movimiento.X -= 1;
+            }
 
-            // TODO: Add your update logic here
+            posicionVegeta += movimiento;
 
             base.Update(gameTime);
         }
@@ -61,11 +87,7 @@ namespace DeadMoon
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            //Fijar posicion del elemento al final de la pantalla
-            // A la izquierda del todo
-            posicionObjeto1.X = 0;
-            // La altura de la pantalla menos el tamaño del sprite
-            posicionObjeto1.Y = GraphicsDevice.PresentationParameters.BackBufferHeight - vegeta.Height;
+            
 
             
             spriteBatch.Begin();
@@ -77,7 +99,7 @@ namespace DeadMoon
                new Rectangle(0, 0, backgroundInicio.Width, backgroundInicio.Height),
                Color.White);
             // Dibujar sprite del personaje
-            spriteBatch.Draw(vegeta, posicionObjeto1, Color.White);
+            spriteBatch.Draw(vegeta, posicionVegeta, Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);
