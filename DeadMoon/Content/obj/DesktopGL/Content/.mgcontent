@@ -4,10 +4,28 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Daigoro/DeadMoon/Content/Animacion/1.png</File>
+    <File>C:/Daigoro/DeadMoon/Content/Animacion/2.png</File>
+    <File>C:/Daigoro/DeadMoon/Content/Animacion/3.png</File>
+    <File>C:/Daigoro/DeadMoon/Content/Animacion/4.png</File>
+    <File>C:/Daigoro/DeadMoon/Content/Animacion/5.png</File>
+    <File>C:/Daigoro/DeadMoon/Content/Animacion/6.png</File>
+    <File>C:/Daigoro/DeadMoon/Content/Animacion/7.png</File>
+    <File>C:/Daigoro/DeadMoon/Content/Animacion/8.png</File>
+    <File>C:/Daigoro/DeadMoon/Content/Animacion/9.png</File>
     <File>C:/Daigoro/DeadMoon/Content/Personajes/vegeta.png</File>
     <File>C:/Daigoro/DeadMoon/Content/Personajes/vegeta_sayan.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>

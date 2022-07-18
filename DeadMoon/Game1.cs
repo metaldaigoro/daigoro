@@ -11,7 +11,14 @@ namespace DeadMoon
         private SpriteBatch spriteBatch;
         // Declarando los sprites de los personajes
         private Texture2D vegeta;
-        private Texture2D vegetaSayan;
+        private Texture2D vegeta2;
+        private Texture2D vegeta3;
+        private Texture2D vegeta4; 
+        private Texture2D vegeta5;
+        private Texture2D vegeta6;
+        private Texture2D vegeta7;
+        private Texture2D vegeta8;
+        private Texture2D vegeta9;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -31,8 +38,9 @@ namespace DeadMoon
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // Cargar sprite de los personajes
-            vegeta = Content.Load<Texture2D>("Personajes/vegeta");
-            vegetaSayan = Content.Load<Texture2D>("Personajes/vegeta_sayan");
+            vegeta = Content.Load<Texture2D>("Animacion/1");
+            vegeta2 = Content.Load<Texture2D>("Animacion/2");
+            vegeta3 = Content.Load<Texture2D>("Animacion/3");
         }
 
         protected override void Update(GameTime gameTime)

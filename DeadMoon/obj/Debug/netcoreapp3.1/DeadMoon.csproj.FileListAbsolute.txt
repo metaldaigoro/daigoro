@@ -24,3 +24,12 @@ C:\Daigoro\DeadMoon\obj\Debug\netcoreapp3.1\DeadMoon.genruntimeconfig.cache
 C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Personajes\vegeta.xnb
 C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Personajes\vegeta_sayan.xnb
 C:\Daigoro\DeadMoon\obj\Debug\netcoreapp3.1\DeadMoon.csproj.AssemblyReference.cache
+C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\1.xnb
+C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\2.xnb
+C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\3.xnb
+C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\4.xnb
+C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\5.xnb
+C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\6.xnb
+C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\7.xnb
+C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\8.xnb
+C:\Daigoro\DeadMoon\bin\Debug\netcoreapp3.1\Content\Animacion\9.xnb
